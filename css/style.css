@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'gora_freeregular';
-    src: url('/fonts/gora-free-webfont.woff2') format('woff2'),
-         url('/fonts/gora-free-webfont.woff') format('woff');
+    src: url('../fonts/gora-free-webfont.woff2') format('woff2'),
+         url('../fonts/gora-free-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -235,7 +235,7 @@ margin-right: 20px;
 .desc_image {
     
     height: 625px;
-    background: url(/img/main/main.png) no-repeat center center;
+    background: url(../img/main/main.png) no-repeat center center;
 }
 
 .content {
@@ -563,19 +563,19 @@ border-radius: 3px;
 
 }
 .footer-vk {
-    background: url("/img/icon/vk.png") center center no-repeat;
+    background: url("../img/icon/vk.png") center center no-repeat;
 }
 .footer-fb {
-    background: url("/img/icon/fb.png") center center no-repeat;
+    background: url("../img/icon/fb.png") center center no-repeat;
 }
 .footer-go {
-    background: url("/img/icon/google.png") center center no-repeat;
+    background: url("../img/icon/google.png") center center no-repeat;
 }
 .footer-tw {
-    background: url("/img/icon/twitter.png") center center no-repeat;
+    background: url("../img/icon/twitter.png") center center no-repeat;
 }
 .footer-ma {
-    background: url("/img/icon/mail1.png") center center no-repeat;
+    background: url("../img/icon/mail1.png") center center no-repeat;
 }
 
 .wrap-start {
@@ -584,7 +584,7 @@ border-radius: 3px;
     right: 0;
     bottom: 0;
     left: 0;
-    background-image: url("/img/start/start.jpg");
+    background-image: url("../img/start/start.jpg");
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -623,7 +623,7 @@ border-radius: 3px;
 
 .block-start__logo {
     display: block;
-    background-image: url("/img/start/logo.png");
+    background-image: url("../img/start/logo.png");
     width: 160px;
     height: 193px;
     vertical-align: middle;

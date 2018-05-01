@@ -66,17 +66,17 @@
 
 }
 .footer-vk {
-    background: url("/img/icon/vk.png") center center no-repeat;
+    background: url("img/icon/vk.png") center center no-repeat;
 }
 .footer-fb {
-    background: url("/img/icon/fb.png") center center no-repeat;
+    background: url("img/icon/fb.png") center center no-repeat;
 }
 .footer-go {
-    background: url("/img/icon/google.png") center center no-repeat;
+    background: url("img/icon/google.png") center center no-repeat;
 }
 .footer-tw {
-    background: url("/img/icon/twitter.png") center center no-repeat;
+    background: url("img/icon/twitter.png") center center no-repeat;
 }
 .footer-ma {
-    background: url("/img/icon/mail1.png") center center no-repeat;
+    background: url("img/icon/mail1.png") center center no-repeat;
 }
