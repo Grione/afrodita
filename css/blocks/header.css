@@ -1,0 +1,107 @@
+
+.header {
+    background-color: #131415;
+    padding-bottom: 17px;
+    
+}
+
+.header_logo {
+    font-family: "gora_freeregular";
+    font-weight: 18px;
+    width: 33.33%;
+    float: left;
+    margin-top: 30px;
+    box-sizing: border-box;
+}
+
+.logo-link {
+    color: #f89513;
+    text-decoration: none;
+}
+
+.header-menu {
+    float: left;
+    width: 35%;
+    height: 100%;
+    margin-top: 30px;
+    box-sizing: border-box;
+}
+
+.header-nav {
+    height: 100%;
+} 
+
+.li-nav {
+   list-style: none;
+   display: inline-block;
+   height: 100%;
+}
+
+.nav-link {
+   text-decoration: none;
+   text-transform: uppercase;
+   color: #fff;
+   font-size: 12px;
+   font-weight: bold;
+   margin-right: 28px;
+   }
+
+.nav-link:hover {
+   color:#f89513; 
+   transition: 0.5s;
+}  
+
+.nav-link__activ {
+   color: #f89513;
+
+}
+
+
+.nav-link:hover .nav-icon__star {
+   background-image: url("/../img/icon/star-active.png");
+   transition: 0.5s;
+}
+
+.nav-link:hover .nav-icon__pallet {
+   background-image: url("../img/icon/pallet_activ.png");
+   transition: 0.5s;
+}
+.nav-icon {
+   margin-right: 18px;
+   height: 20px;
+   width: 20px;
+   background-position: center;
+   background-repeat: no-repeat;
+   display: inline-block;
+}
+
+.nav-icon__cardio {
+   background-image: url("../img/icon/cardio_activ.png")
+}
+.nav-icon__star {
+   background-image: url("../img/icon/feed_icon.png")
+}
+.nav-icon__pallet {
+   background-image: url("../img/icon/service_icon.png")
+}
+
+.contact {
+   width: 31%;
+   float: left;
+   margin-top: 21px;
+   text-align: right;  
+    
+}
+
+.phone-link {
+   text-decoration: none;
+   text-transform: uppercase;
+   color: #fff;
+   font-size: 21px;
+   font-weight: bold;
+}  
+
+.shedule-link {
+   color: #f89513;
+   font-size: 14px;
+}
