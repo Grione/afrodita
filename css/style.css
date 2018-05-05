@@ -6,6 +6,21 @@
     font-style: normal;
     font-display: swap;
 }
+
+@font-face {
+    font-family: 'gora_freeregular';
+    src: url('../fonts/fontawesome-webfont.woff2') format('woff2'),
+         url('../fonts/fontawesome-webfont.woff') format('woff');
+
+}
+
+@font-face {
+    font-family: 'gora_freeregular';
+    src: url('../fonts/fonts/icomoon/icomoon.woff') format('woff2'),
+         url('../fonts/fonts/icomoon/icomoon.ttf') format('woff');
+
+}
+
 html {
     height: 100%;
 }
@@ -104,7 +119,14 @@ h1, h2 {
     list-style: none;
     display: inline-block;
     height: 100%;
+    margin-right: 28px;
 }
+
+.li-nav:last-child {
+
+    margin-right: 0;
+}
+
 
 .nav-link {
     text-decoration: none;
@@ -112,8 +134,13 @@ h1, h2 {
     color: #fff;
     font-size: 12px;
     font-weight: bold;
-    margin-right: 28px;
+   
     }
+
+.nav-link:last-child {
+   
+
+}    
 
 .nav-link:hover {
     color:#f89513; 
@@ -154,6 +181,24 @@ h1, h2 {
 }
 .nav-icon__pallet {
     background-image: url("../img/icon/service_icon.png")
+}
+
+.fa-star-o {
+    font-size: 20px !important;
+    margin-right: 18px;
+
+}
+
+.icon-Vector-Smart-Object {
+    font-size: 20px !important;
+    margin-right: 18px;
+
+}
+
+.icon-Vector-Smart-Object1 {
+    font-size:18px !important;
+    margin-right: 18px;
+
 }
 
 .contact {

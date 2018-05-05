@@ -15,14 +15,16 @@
     font-style: italic;
 }
 
-.breadcrumbs-item::after {
+.breadcrumbs-item:last-child::before {
     content: "/";
     margin-left: 2px;
 }
-
-ul .breadcrumbs-item:last-child::after {
-    content: "";
+.breadcrumbs-item__link {
+    color: #131415;
 }
+/* ul .breadcrumbs-item:last-child::after {
+    content: "";
+} */
 
 .breadcrumbs-item__activ {
     color: #fab46e;
@@ -59,7 +61,7 @@ filter: grayscale(100%);
     width: 100%;
     height: 170px;
     background-color: #131415;
-    background-image: url("img/main/bg.png");
+    background-image: url("../../img/main/bg.png");
     background-repeat: repeat-x;
     margin-bottom:60px;
     
